@@ -50,8 +50,8 @@ RNF3. O repositório deve conter:
 # Mapeamento requisitos e funções
 | Requisito              |        Arquivo | Função                                                      | Observação                                                                  |
 | ---------------------- | -------------: | ----------------------------------------------------------- | --------------------------------------------------------------------------- |
-| RF1 — Adicionar tarefa | `src/tasks.py` | `create_task` (cria `Task`) e `add_task` (adiciona à lista) | `create_task` retorna `Task`; `add_task` retorna nova lista (imutabilidade) |
-| RF2 — Listar por tag   | `src/tasks.py` | `make_tag_filter` + `filter_tasks`                          | `make_tag_filter(tag)` produz predicate; `filter_tasks` aplica predicate    |
-| RF3 — Marcar concluída | `src/tasks.py` | `mark_done`                                                 | Retorna nova lista com a task com `done=True` (usa `dataclasses.replace`)   |
-| RF4 — Remover tarefa   | `src/tasks.py` | `remove_task`                                               | Usa list comprehension para remover por id                                  |
+| RF1 - Adicionar tarefa | `src/tasks.py` | `create_task` (cria `Task`) e `add_task` (adiciona à lista) | `create_task` retorna `Task`; `add_task` retorna nova lista (imutabilidade) |
+| RF2 - Listar por tag   | `src/tasks.py` | `make_tag_filter` + `filter_tasks`                          | `make_tag_filter(tag)` produz predicate; `filter_tasks` aplica predicate    |
+| RF3 - Marcar concluída | `src/tasks.py` | `mark_done`                                                 | Retorna nova lista com a task com `done=True` (usa `dataclasses.replace`)   |
+| RF4 - Remover tarefa   | `src/tasks.py` | `remove_task`                                               | Usa list comprehension para remover por id                                  |
 
