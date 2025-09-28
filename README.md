@@ -29,9 +29,9 @@ Arquivo `requirements.txt` mínimo:
 pytest
 ```
 
-## Como configurar (recomendado)
+## Como configurar
 
-### 1. Crie e ative um ambiente virtual (opcional, recomendado)
+### 1. Crie e ative um ambiente virtual
 
 **Linux / macOS**
 ```bash
@@ -54,12 +54,12 @@ pip install -r requirements.txt
 
 Recomendado: rode a partir da raiz do projeto.
 
-### Opção A — via -m (recomendado)
+### Opção A - via -m
 ```bash
 python -m src.cli
 ```
 
-### Opção B — executando diretamente (se houver erro de import)
+### Opção B - executando diretamente (se houver erro de import)
 
 **Linux/macOS:**
 ```bash
@@ -93,7 +93,7 @@ Na raiz do projeto:
 python -m pytest -q
 ```
 
-## Notas sobre implementação (exigências do trabalho)
+## Notas sobre implementação
 
 - **Lambda:** usada em `sort_by_priority` (key func).
 - **List comprehension:** usada em `remove_task`, `get_titles`, etc.
