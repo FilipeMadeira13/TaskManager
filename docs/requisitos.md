@@ -3,7 +3,7 @@
 | ------------------------------ | --------: | ---------------------------------------------------------------------------------------------- |
 | Abrahão Levy Barbosa de Lavor  |   2323796 | Gestão do escopo e Priorização de Entregas.    |
 | Carlos Filipe Madeira de Souza |   2317449 | Implementação do Código: `src/models.py`, `src/tasks.py`, `src/cli.py`; integração com testes. |
-| Dayon Oliveira de Souza        |   2324030 | Documentação dos requisitos e mapeamento RF↔código.                           |
+| Dayon Oliveira de Souza        |   2425030 | Documentação dos requisitos e mapeamento RF↔código.                           |
 | Fernando Luiz Silva de Lima    |   2323758 | Desenvolvimento e execução de testes (`pytest`), QA e verificação de comportamento.            |
 | Thiago de Vasconcelos Sousa    |   2415581 | Diagramas de arquitetura e aplicação de padrões de projeto.           |
 | Sabrina dos Santos Alves       |   2326657 | Documentação Técnica e Revisão do Código.                                                      |
